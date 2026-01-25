@@ -48,6 +48,16 @@ Everything in Linux is either File or Directory
 - a → Shows processes of all users
 - u → Shows detailed user-oriented information (CPU, memory, user)
 - x → Shows processes not attached to a terminal
+
+| **Binary**                  | **System Binary**                     |
+| --------------------------- | ------------------------------------- |
+| Executable program          | System-level executable               |
+| Used for normal operations  | Used for system administration        |
+| Normal users                | Mainly root (admin)                   |
+| General use                 | Critical for system                   |
+| `/bin`, `/usr/bin`          | `/sbin`, `/usr/sbin`                  |
+| Can be run by all users     | Mostly restricted                     |
+| `ls`, `cp`, `mkdir`, `ping` | `reboot`, `mount`, `fsck`, `shutdown` |
 - | (pipe) → Sends output of one command to another command
 - grep → Searches/filter text
 - ping → The keyword being searched (process name)
